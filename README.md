@@ -1,8 +1,8 @@
 # Basic deployment server
 
-A basic server made for deployment testing, such as nginx and port proxying
+A basic server application made for deployment testing on services such as nginx, proxy manager and portainer.
 
-## How to use
+## How to deploy on Linux as a service
 
 - Mark ``index.js`` as an executable by doing ``chmod +x index.js``
 - Copy your service file into the /etc/systemd/system.
